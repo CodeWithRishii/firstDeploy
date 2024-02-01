@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js"></script>
+    <script src="https://kit.fontawesome.com/37f46bab68.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="main">
+            <nav>
+                <img src="projectimage/logo.png" alt="logo" class="logo">
+                <p id="icon" onclick="menuButton()"><i class="fa-solid fa-ellipsis-vertical"></i></p>
+                <ul id="nav-list">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="">PORTFOLIO</a></li>
+                    <li><a href="#contact-heading">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div id="container-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>Codewithrishii</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------About---------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="projectimage/IMG-20220909-WA0009.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="about-title">About Me</h1>
+                    <p>Hello my name is sandeep.I'm from uttar pradesh. I'm unofficial Web Designer. <br> Design & Development traning at Eracoms.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-links" onclick="skills()">Skills</p>
+                        <p class="tab-links" onclick="">Experience</p>
+                        <p class="tab-links" onclick="education()">Education</p>
+                        <!-- <p class="tab-links"></p> -->
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills-content">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>UI/UX Traning at Eracoms</li>
+                            <li><span>2020</span><br>12th From CBSE Board</li>
+                            <li><span>2018</span><br>10th From CBSE Board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- ----------- services boxes-------------- -->
+
+    <h1 id="services">MY SERVICES</h1>
+    <div id="box">
+            
+        <div><img src="projectimage/pexels-designecologist-1779487.jpg" alt=""><h2>Frontend Development</h2></div>
+        <div><img src="projectimage/pexels-fauxels-3182773.jpg" alt=""><h2>Backend Development</h2></div>
+        <div><img src="projectimage/pexels-olia-danilevich-4974915.jpg" alt=""><h2>Creating APIS</h2></div>
+        <div><img src="projectimage/pexels-pixabay-270632.jpg" alt=""><h2>Web Development</h2></div>
+        <div><img src="projectimage/pexels-christina-morillo-1181244.jpg" alt=""><h2>Design & Development</h2></div>
+        <div><img src="projectimage/pexels-plann-4565774.jpg" alt=""><h2>UI/UX Designing</h2></div>
+    </div>
+    <br><br><br>
+
+    <!-- ----------- contact us-------------- -->
+    
+    <h1 id="contact-heading">Contact Us</h1>
+    <div id="contact-us">
+            <div class="left-div" id="left-div-1">
+                <p><i class="fa-solid fa-address-book" id="left-div-icon"></i></p>  <br>
+                <h4>Talk to a member of our <br> Development team</h4> <br>
+                <p>We'll help you make <br> Design and Development</p><br>
+                <button id="btn">Contact</button>
+            </div>
+
+            <div class="left-div" id="left-div-2">
+                <p><i class="fa-solid fa-robot" id="left-div-icon"></i></p> <br>   
+                <h4>Product and account support</h4><br>
+                <p>Our help center fresh and always open for business.If you can't find answer you're looking for.we're here to send a hand.</p><br>
+                <button id="btn">Go to help center</button>
+            </div>
+    </div>
+
+</body>
+</html>
